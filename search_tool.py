@@ -2,13 +2,13 @@
 import requests #type: ignore
 
 
-API_KEY = "AIzaSyDzv2mW64JiZz-siaK5mQumvvMv0N3FGiA"
-CX = "267b6e63b35f44cff"
+API_KEY = "Add_your_api"
+CX = "add_your_cx"
 
 def search_web(query, num_results=5):
     
-    api_key = "AIzaSyDzv2mW64JiZz-siaK5mQumvvMv0N3FGiA"
-    cx = "267b6e63b35f44cff"
+    api_key = "Add_your_api"
+    cx = "add_your_cx"
 
     # Define the endpoint and parameters
     url = "https://www.googleapis.com/customsearch/v1"
