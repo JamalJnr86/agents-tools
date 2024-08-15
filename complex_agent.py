@@ -8,8 +8,8 @@ from search_tool import search_web
 from stock_exchange import get_stock_exchange_rate 
 
 # Initialize the Groq client
-groq_api_key = "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" 
-client = ChatGroq(api_key=groq_api_key, model_name="llama3-8b-8192")
+groq_api_key = "add_your_api" 
+client = ChatGroq(api_key=groq_api_key, model_name="Add_your_model_name")
 
 # Define a prompt template for generating responses
 prompt_template = PromptTemplate(
