@@ -2,7 +2,7 @@
 import requests  # type: ignore
 
 def get_stock_exchange_rate(index_symbol):
-    stock_api_key = "c479d82a10b888f28eec7ec1"  # Replace with your actual API key
+    stock_api_key = "Add_your_api_exchangerate_api"  # Replace with your actual API key
     result = {}
 
     url = f"https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol={index_symbol}&interval=1min&apikey={stock_api_key}"
