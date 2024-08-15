@@ -1,7 +1,7 @@
 import requests  # type: ignore
 
 def convert_currency(amount, from_currency, to_currency):
-    api_key = "c479d82a10b888f28eec7ec1"  # Ensure this is a valid API key
+    api_key = "ADD_your_exchange_rate_API"  # Ensure this is a valid API key
     url = f"https://v6.exchangerate-api.com/v6/{api_key}/pair/{from_currency}/{to_currency}"
     
     try:
