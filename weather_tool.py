@@ -2,7 +2,7 @@
 import requests #type: ignore
 
 def get_weather(city):
-    api_key = "8ac63e8a7710b32933857343e1bc5206"
+    api_key = "add_your_api of_openweatehemap"
     url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}"
     response = requests.get(url)
     if response.status_code == 200:
